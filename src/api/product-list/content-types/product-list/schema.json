@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product-list",
     "pluralName": "product-lists",
-    "displayName": "Product List"
+    "displayName": "Product List",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,11 +22,12 @@
       "type": "float"
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "altImg": {
       "type": "string"
@@ -36,7 +38,8 @@
         "Weekly Special",
         "Ramen",
         "Side",
-        "Dessert"
+        "Dessert",
+        "Drink"
       ]
     }
   }
